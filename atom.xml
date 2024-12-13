@@ -6,7 +6,7 @@
   <link href="https://blog.xption.com/atom.xml" rel="self"/>
   
   <link href="https://blog.xption.com/"/>
-  <updated>2024-10-21T03:19:51.164Z</updated>
+  <updated>2024-12-13T08:21:29.527Z</updated>
   <id>https://blog.xption.com/</id>
   
   <author>
@@ -17,100 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>[20241020] 央行互换便利的深层理解</title>
-    <link href="https://blog.xption.com/2024/10/20/invest/[20241020]%E5%A4%AE%E8%A1%8C%E4%BA%92%E6%8D%A2%E4%BE%BF%E5%88%A9%E7%9A%84%E6%B7%B1%E5%B1%82%E7%90%86%E8%A7%A3/"/>
-    <id>https://blog.xption.com/2024/10/20/invest/[20241020]%E5%A4%AE%E8%A1%8C%E4%BA%92%E6%8D%A2%E4%BE%BF%E5%88%A9%E7%9A%84%E6%B7%B1%E5%B1%82%E7%90%86%E8%A7%A3/</id>
-    <published>2024-10-20T15:00:00.000Z</published>
-    <updated>2024-10-21T03:19:51.164Z</updated>
+    <title>群体行为与投资</title>
+    <link href="https://blog.xption.com/2024/12/13/code/Boids%E7%AE%97%E6%B3%95/"/>
+    <id>https://blog.xption.com/2024/12/13/code/Boids%E7%AE%97%E6%B3%95/</id>
+    <published>2024-12-13T03:24:25.000Z</published>
+    <updated>2024-12-13T08:21:29.527Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="1-关于央行互换便利的进一步认知"><a href="#1-关于央行互换便利的进一步认知" class="headerlink" title="1. 关于央行互换便利的进一步认知"></a>1. 关于央行互换便利的进一步认知</h2><p>在 2024-10-18 的投资观察中介绍了央行的互换便利工具，今天分享关于互换便利的进一步思考：</p><h3 id="1-1-互换便利的成本"><a href="#1-1-互换便利的成本" class="headerlink" title="1.1 互换便利的成本"></a>1.1 互换便利的成本</h3><p>参与互换便利的第一步是把股票质押给央行，换取国债或央票。第二步是在银行间市场，通过国债回购换取现金。这两部均需要向对方支付利息，毛估估这两步的利息成本在 3%。</p><p>与消费贷类似，对个人来说不算高，但对大型金融机构来说不低。</p><span id="more"></span><h3 id="1-2-左脚踩右脚的问题"><a href="#1-2-左脚踩右脚的问题" class="headerlink" title="1.2 左脚踩右脚的问题"></a>1.2 左脚踩右脚的问题</h3><p>假设我是一家券商，手上持有茅台的股票。</p><p>我可以参与互换便利，把茅台股票质押给央行，换取国债；在银行间市场，通过国债回购换取资金，用这笔资金再买入茅台的股票。</p><p>这些新买的股票，继续质押换取资金并买入茅台股票，不断循环。</p><p>这样，完全可以通过左脚踩右脚的方式把股价炒的很高，谁最后接棒谁完蛋。</p><p>好在央行限制了总额度，给市场的增量资金就是 5000 亿，用完了就无法继续这个循环。</p><h2 id="2-幻方清盘中性策略"><a href="#2-幻方清盘中性策略" class="headerlink" title="2. 幻方清盘中性策略"></a>2. 幻方清盘中性策略</h2><p>幻方清盘中性策略，应该是被这波暴涨打怕了。</p><p>中性策略的基本原理是同时构建多头和空头仓位，对冲掉市场整体上涨和下跌的风险，赚取稳定的收益。</p><p>一个交易策略组合，其盈利来自于两部分：市场整体的上涨和该组合的超额收益。</p><p>例如，买入优质公司的股票今年赚了 20%，而市场整体上涨 10%，可以认为这 20% 中有一部分是来自于市场整体的上涨（称为 β），有一部分是来自于该公司的盈利超过市场平均水平（超额收益，称为 α）。</p><p>即使这家公司非常优质，股票的超额收益 α 很高，也可能受到市场整体的下跌而亏损（比如 2018 年）。所以，中性策略应运而生。</p><p>中性策略就是构建多空组合，使得组合的 β 为 0，只赚取超额收益 α。这样只要选股能力够，便可以无视市场整体的涨跌，稳定赚取收益。</p><p>在熊市中，由于不会随着市场整体下跌而下跌，所以中性策略大杀四方。</p><p>成也萧何，败也萧何。在牛市中，由于不会随着市场整体上涨而上涨，所以会大幅跑输指数，毕竟每年的 α 能有 10个点就非常好，这相比于牛市的上涨幅度小很多。</p><h2 id="3-我们不怕选错方向"><a href="#3-我们不怕选错方向" class="headerlink" title="3. 我们不怕选错方向"></a>3. 我们不怕选错方向</h2><p>周五晚上，我之前开培训班时的一位学生过来看我，一起晚饭边吃边聊。</p><p>这位学生同样是互联网行业创业，另外家里父辈也有产业（传统行业），他创业的同时也参与家里的事。</p><p>他创业的公司最近在跟字节谈收购，家里的主业计划拓展海南业务。他诉苦不知该选择哪个方向，因为字节收购完成就必须全职在字节。</p><p>我说：你不用担心选错，因为不管哪一个行业都可以做到几千万的营收。如果你的目标是英伟达那种万亿级别的公司，选择行业确实很重要，但现在不用考虑这个问题。</p><p>他听完豁然开朗，像是心中一块石头放下。年轻人，相比于头疼如何选对方向，行动起来更重要。</p>]]></content>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-关于央行互换便利的进一步认知&quot;&gt;&lt;a href=&quot;#1-关于央行互换便利的进一步认知&quot; class=&quot;headerlink&quot; title=&quot;1. 关于央行互换便利的进一步认知&quot;&gt;&lt;/a&gt;1. 关于央行互换便利的进一步认知&lt;/h2&gt;&lt;p&gt;在 2024-10-18 的投资观察中介绍了央行的互换便利工具，今天分享关于互换便利的进一步思考：&lt;/p&gt;
-&lt;h3 id=&quot;1-1-互换便利的成本&quot;&gt;&lt;a href=&quot;#1-1-互换便利的成本&quot; class=&quot;headerlink&quot; title=&quot;1.1 互换便利的成本&quot;&gt;&lt;/a&gt;1.1 互换便利的成本&lt;/h3&gt;&lt;p&gt;参与互换便利的第一步是把股票质押给央行，换取国债或央票。第二步是在银行间市场，通过国债回购换取现金。这两部均需要向对方支付利息，毛估估这两步的利息成本在 3%。&lt;/p&gt;
-&lt;p&gt;与消费贷类似，对个人来说不算高，但对大型金融机构来说不低。&lt;/p&gt;</summary>
+    <content type="html"><![CDATA[<h2 id="群体行为"><a href="#群体行为" class="headerlink" title="群体行为"></a>群体行为</h2><p>1987 年 Craig W.Reynolds 发表一篇名为<a href="http://www.red3d.com/cwr/boids/">《鸟群、牧群、鱼群：分布式行为模式》</a>的论文，描述了一种非常简单的模拟群体行为的算法。</p><p>该算法成为 Boids 算法 (<a href="https://en.wikipedia.org/wiki/Boids">维基百科</a>)。</p><p>以鸟群为例，该算法实现了该视频中的鸟群行为：</p><div style="max-width: 560px; margin: 0 auto;">    <a href="https://www.youtube.com/watch?v=4LWmRuB-uNU" target="_blank">        <img src="https://img.youtube.com/vi/4LWmRuB-uNU/0.jpg" alt="Boids 算法视频" style="width: 100%; height: auto; display: block; border: 1px solid #000;">    </a></div><p>如果从数学上描述鸟群的运动轨迹、形状会非常复杂，Boids 算法的独特之处就在于通过为每个个体设定几条简单的规则，即可实现群体的复杂行为。</p><span id="more"></span><p>这个算法有三个简单规则：凝聚性、排斥性、同向性，还有一个每只鸟的视野范围参数。</p><ul><li>凝聚性 Coherence:<ul><li>向着周围同伴的平均位置（质心）移动</li><li>数值越大，群体移动时凝聚力越强</li><li>数值越小，群体移动时凝聚力越弱</li></ul></li><li>排斥性 Separation <ul><li>躲避系数，与周围同伴保持距离</li><li>数值越大，群体的体积越膨胀</li><li>数值越小，群体的体积越小</li><li>数值为 0 时，所有个体可能重叠（也与其他系数有关）</li></ul></li><li>同向性 Alignment<ul><li>向着周围同伴的平均方向移动</li><li>数值越大，个体的移动方向越一致</li><li>数值越小，个体的移动方向越凌乱</li></ul></li><li>视野范围 Visual Range<ul><li>可观察到周围同伴的范围</li><li>数值越大，群体性特征越明显，多个小群体更容易汇集为一个大群体</li><li>数值越小，群体性特征越模糊，一个大群体更容易分散为多个小群体</li></ul></li></ul><style>canvas {    max-width: 100%;    height: auto;    display: block;    margin: 0 auto;    border: 1px solid #000; /* 添加黑色边框 */    background: #282c34;}.slider-container {    max-width: 100%;  /* 修改为100%以适应更宽的布局 */    margin: 20px auto;    padding: 10px;    display: flex;  /* 使用flex布局 */    gap: 20px;      /* slider组之间的间距 */    flex-wrap: wrap; /* 在较小屏幕上自动换行 */}.slider-group {    flex: 1;        /* 平均分配空间 */    min-width: 200px; /* 设置最小宽度 */}.slider-group label {    display: block;    margin-bottom: 5px;    font-size: 0.9em;  /* 稍微减小字体大小 */}.slider-group .slider-row {    display: flex;    align-items: center;    gap: 8px;}.slider-group input {    flex: 1;    width: 100%;}.slider-value {    min-width: 30px;    font-size: 0.9em;}</style><p><canvas id="boids" width="150" height="150"></canvas></p><div class="slider-container">    <div class="slider-group">        <label for="centeringFactor">Coherence</label><!-- 向着周围同伴的平均位置（质心）移动 -->        <div class="slider-row">            <input type="range" id="centeringFactor" min="0" max="0.01" step="0.001" value="0.005">            <span class="slider-value" id="centeringFactorValue">0.005</span>        </div>    </div>    <div class="slider-group">        <label for="avoidFactor">Separation</label><!-- 避开周围同伴 -->        <div class="slider-row">            <input type="range" id="avoidFactor" min="0" max="0.1" step="0.01" value="0.05">            <span class="slider-value" id="avoidFactorValue">0.05</span>        </div>    </div>    <div class="slider-group">        <label for="matchingFactor">Alignment</label><!-- 向着周围同伴的平均方向移动 -->        <div class="slider-row">            <input type="range" id="matchingFactor" min="0" max="0.1" step="0.01" value="0.05">            <span class="slider-value" id="matchingFactorValue">0.05</span>        </div>    </div>    <div class="slider-group">        <label for="visualRange">Visual Range</label><!-- 视野范围 -->        <div class="slider-row">            <input type="range" id="visualRange" min="0" max="200" step="10" value="100">            <span class="slider-value" id="visualRangeValue">100</span>        </div>    </div></div><script src="/js/Boids算法/boids.js"></script><script>// 更新滑动条值显示function updateSliderValues() {    document.getElementById('centeringFactorValue').textContent = centeringFactor;    document.getElementById('avoidFactorValue').textContent = avoidFactor;    document.getElementById('matchingFactorValue').textContent = matchingFactor;    document.getElementById('visualRangeValue').textContent = visualRange;}// 添加滑动条事件监听器document.getElementById('centeringFactor').addEventListener('input', function(e) {    centeringFactor = parseFloat(e.target.value);    updateSliderValues();    console.log('centeringFactor', centeringFactor);    // 这里可以添加重新初始化模拟的代码});// 添加滑动条事件监听器document.getElementById('avoidFactor').addEventListener('input', function(e) {    avoidFactor = parseFloat(e.target.value);    updateSliderValues();    console.log('avoidFactor', avoidFactor);    // 这里可以添加重新初始化模拟的代码});document.getElementById('matchingFactor').addEventListener('input', function(e) {    matchingFactor = parseFloat(e.target.value);    updateSliderValues();    console.log('matchingFactor', matchingFactor);});document.getElementById('visualRange').addEventListener('input', function(e) {    visualRange = parseInt(e.target.value);    updateSliderValues();    console.log('visualRange', visualRange);});window.onload = () => {  // Make sure the canvas always fills the whole window  window.addEventListener("resize", sizeCanvas, false);  sizeCanvas();  // Randomly distribute the boids to start  initBoids();  // Schedule the main animation loop  window.requestAnimationFrame(animationLoop);  updateSliderValues();};</script><h2 id="投资"><a href="#投资" class="headerlink" title="投资"></a>投资</h2><p>Boids 算法中，每个个体遵循几条简单的规则，群体就会表现出非常复杂的行为。</p><p>这种现象在人类群体中也同样存在，例如股票市场。每个投资者遵循自己的投资原则，总体就会表现出复杂的行为，即股价的涨跌。</p><p>如果追涨杀跌的投资者占大多数，即同向性 Alignment 数值较大，那么市场就会出现极端的高价、低价。当然，更多的时候，凝聚性、同向性、视野范围都会比较小，市场表现为一种随机波动。</p><p>在视频中，鸟群并存在一只领头的鸟带领其他鸟向着某个方向飞。但是，某些迷信的鸟可能会认为整个鸟群的运动轨迹、形状是由于一只领头鸟决定，或是由某种无形的神秘力量（称之为主力）决定，就像以前人们认为刮风下雨是由某位神仙掌管。</p><p>在股票市场，除了少数容易被人为操纵的小市值公司外，大部分时候并不存在主力。或者说，存在主力，这个主力就是所有投资者。</p><p>例如，开盘后某位投资者卖出股票，观察到这一行为的投资者担心继续下跌而跟着卖出。这种跟随的卖出行为进一步传染给其他投资者，从而更多人卖出，形成了我们所谓的主力。随着这种行为的传导，越来越多投资者认为主力开始出货，便抓紧卖出，然后大骂主力。</p><p>所以，与其说市场是由某些神秘的主力决定，我宁可相信我们每个人都是主力。</p>]]></content>
     
     
-    
-    <category term="投资观察" scheme="https://blog.xption.com/categories/%E6%8A%95%E8%B5%84%E8%A7%82%E5%AF%9F/"/>
-    
-    
-    <category term="投资" scheme="https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[20241018] 央行互换便利</title>
-    <link href="https://blog.xption.com/2024/10/18/invest/[20241018]%E5%A4%AE%E8%A1%8C%E4%BA%92%E6%8D%A2%E4%BE%BF%E5%88%A9/"/>
-    <id>https://blog.xption.com/2024/10/18/invest/[20241018]%E5%A4%AE%E8%A1%8C%E4%BA%92%E6%8D%A2%E4%BE%BF%E5%88%A9/</id>
-    <published>2024-10-18T15:00:00.000Z</published>
-    <updated>2024-10-21T03:19:51.163Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="1-京东金融挤兑传闻"><a href="#1-京东金融挤兑传闻" class="headerlink" title="1. 京东金融挤兑传闻"></a>1. 京东金融挤兑传闻</h2><p>今天看到京东金融发生挤兑的新闻，我第一反应是谣言。我没有开通京东金融，但我知道京东金融的产品一定是合规的、有监管的，不是赚一票就跑的路子。</p><p>毕竟对于这个级别的公司，长期稳稳地赚钱才是最重要的，没有必要冒违规的风险。</p><span id="more"></span><p>前几天，看到网上发文抵制京东。我试想了下，如果我抵制京东，那我有替代品吗？PDD 和 淘宝的物流和服务都太差，在这两个平台买东西，交易对象是商家，平台只是监管。而在京东买东西，交易对象是京东。</p><p>我买书基本都是在京东，总是比 PDD 和淘宝贵一点，但是服务更好，我愿意为这服务多付一点钱。京东买书经常早上下单晚上到，退换货也方便，京东物流直接上门取件。物流是京东的优势，我喜欢顺丰和京东快递，而在 PDD 和淘宝的商家基本都不会选择这两家。</p><p>思考了下，京东对我来说仍然不可替代的。只要产品质量、价格、服务符合我的预期，我不在意京东的创始人如何如何。新城控股董事长王振华因为犯罪坐牢，买了新城控股房子的人难道就不住了吗？似乎说不过去。</p><h2 id="2-A-股暴涨"><a href="#2-A-股暴涨" class="headerlink" title="2. A 股暴涨"></a>2. A 股暴涨</h2><p>下午开盘后，A 股忽然暴涨，涨得我一愣一愣。大概是因为领导的一个讲话，科技股起飞，带动创业板起飞。随后，上证指数、沪深 300 也开始大涨。最可恨是我昨天清仓的 A500 指数涨 3.68%，我感觉庄家就盯着我持仓这三瓜两枣，我不卖就不涨。</p><p>收盘前有所回落，截至收盘创业板涨 8%，上证涨 3%。</p><p>这一周我把 ETF 逐步换到可转债，旨在保住今年的胜利果实。只是 ETF 卖完了，可转债还没来得及买，市场就涨了。</p><p>不过，我觉得这种暴涨不会长久，后续还有上车机会（强行自我安慰）。下周一大概率高开，我不想追，还是坚持我自己的节奏买可转债。我怕我追了后就跌，来回打脸。</p><h2 id="3-互换便利"><a href="#3-互换便利" class="headerlink" title="3. 互换便利"></a>3. 互换便利</h2><p>近期经常看到新闻：央行创设互换便利工具，首期规模 5000 亿。今天学习了这个工具，基本还是宏观经济学的知识，与大家分享。这部分内容有点儿干，建议多点儿耐心。</p><p>互换便利是央行创设的一种政策工具，旨在支持符合条件的证券、基金、保险公司通过资产质押从中央银行获取流动性。</p><p>这里的流动性，说人话就是容易变现的资产，比如现金、国债、央票。国债大家都听过，央票类似于国债。国债是政府发行，金融机构、个人都可以购买；央票是央行发行，金融机构购买。</p><p>通常，证券、基金、保险这类公司会长期持有债券、股票、基金。这占用公司大量资金，所以这些公司会利用这类资产赚点儿收益，比如证券公司将股票借给投资者做空以赚取利息，也就是我们常说的融券。互换便利就是让这些公司拿这类资产到央行那质押，换取国债和央票这两流动性好（容易变现）的资产。如此以来，这些公司手头可支配的现金就增加了。</p><p>而且这么操作，央行没有增加基础货币投放（说人话就是央行没有放水印钱）。只是把这些公司手里流动性差的资产换成了流动性好的国债和央票，很容易卖出换成现金。这些公司可支配的现金增加了，就可以用于购买股票拉动 A 股。</p><h3 id="3-1-互换便利政策"><a href="#3-1-互换便利政策" class="headerlink" title="3.1 互换便利政策"></a>3.1 互换便利政策</h3><ol><li><p>期限：1 年，到期可申请展期（延长期限）</p></li><li><p>质押品：AAA债券、ETF、股票及公募REITS</p></li><li><p>互换操作获得的国债、央票只能在银行间市场回购融资，不得卖出</p><p> 回购，说人话就是古代的典当。持有国债的证券公司，将国债卖给某银行，同时约定未来某个时间点再从该银行买回这些国债。当然，买回的价格会更高一些，银行就赚这个差价，与古代的典当行是不是很相似？</p><p> 对于证券公司来说，这个先卖国债再买回来的过程叫回购，先卖出再买回；对于其对手方银行来说，是先买再卖，这个过程叫逆回购。</p><p> 我们每天进行的国债逆回购交易，也是类似。这个交易过程是我们先买国债，一天后再卖国债。卖的价格更高一些，这个差价就是我们参与国债逆回购的收益。</p></li><li><p>质押率原则上不超过 90%，补仓线不低于 75%</p><p> 100 万的股票质押给央行，最高可以换取 90 万国债；当股票市值跌破 75 万的时候，证券公司需要补充抵押品。</p></li><li><p>利息归还：国债或央票的利息，仍然归央行</p><p> 国债和央票定期是有利息的，这些公司收到利息后要交给央行。</p><p> 这个是常规规定，比如我们从券商融券卖出做空，如果这期间股票分红，这笔钱是归券商的。</p></li></ol><h3 id="3-2-互换便利工具的操作步骤（以证券公司为例）"><a href="#3-2-互换便利工具的操作步骤（以证券公司为例）" class="headerlink" title="3.2 互换便利工具的操作步骤（以证券公司为例）"></a>3.2 互换便利工具的操作步骤（以证券公司为例）</h3><ol><li><p>证券公司将持有的股票质押给央行。假设市场价值 100 万，获得价值 90 万 的国债。</p></li><li><p>证券公司在银行间市场通过回购方式获得资金（将国债卖给银行，将来再买回来）。</p></li><li><p>证券公司用获得的资金买入股票，这一步就与我们股票投资者息息相关了。</p><p> 这些公司借来的钱，会买哪些股票呢？如果是我，保险起见，我就买股息率高的股票，比如红利指数的成分股。一是不会大跌，二是即使跌了，每年的分红也足够覆盖借款的利息。如果下跌，无非就是晚几年等股票涨回来再还给央行。</p></li><li><p>买入的股票可以继续质押获得新的资金，循环多次。</p><p> 这样就放大了资金的杠杆，类似于商业银行在央行的存款准备金制度。根据大学数学的极限知识，按照 90% 的质押率，价值 100 万的股票理论上可以获得 1000 万的资金买股票（10 倍， 1 除以 10%)，这就是经济学说的乘数效应。</p><p> 当然，央行限制了首期 5000 亿的总额度，不管怎么循环质押，最多就 5000 亿。</p></li><li><p>证券公司将股票卖出，获得资金。在银行间市场，购回国债，还给央行，从央行处将自己质押的股票再换回来。</p></li></ol><p>我的大致理解就是这样，可能言辞表达上略有偏差或不严谨，不过基本是这个意思。</p>]]></content>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;1-京东金融挤兑传闻&quot;&gt;&lt;a href=&quot;#1-京东金融挤兑传闻&quot; class=&quot;headerlink&quot; title=&quot;1. 京东金融挤兑传闻&quot;&gt;&lt;/a&gt;1. 京东金融挤兑传闻&lt;/h2&gt;&lt;p&gt;今天看到京东金融发生挤兑的新闻，我第一反应是谣言。我没有开通京东金融，但我知道京东金融的产品一定是合规的、有监管的，不是赚一票就跑的路子。&lt;/p&gt;
-&lt;p&gt;毕竟对于这个级别的公司，长期稳稳地赚钱才是最重要的，没有必要冒违规的风险。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;群体行为&quot;&gt;&lt;a href=&quot;#群体行为&quot; class=&quot;headerlink&quot; title=&quot;群体行为&quot;&gt;&lt;/a&gt;群体行为&lt;/h2&gt;&lt;p&gt;1987 年 Craig W.Reynolds 发表一篇名为&lt;a href=&quot;http://www.red3d.com/cwr/boids/&quot;&gt;《鸟群、牧群、鱼群：分布式行为模式》&lt;/a&gt;的论文，描述了一种非常简单的模拟群体行为的算法。&lt;/p&gt;
+&lt;p&gt;该算法成为 Boids 算法 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Boids&quot;&gt;维基百科&lt;/a&gt;)。&lt;/p&gt;
+&lt;p&gt;以鸟群为例，该算法实现了该视频中的鸟群行为：&lt;/p&gt;
+&lt;div style=&quot;max-width: 560px; margin: 0 auto;&quot;&gt;
+    &lt;a href=&quot;https://www.youtube.com/watch?v=4LWmRuB-uNU&quot; target=&quot;_blank&quot;&gt;
+        &lt;img src=&quot;https://img.youtube.com/vi/4LWmRuB-uNU/0.jpg&quot; alt=&quot;Boids 算法视频&quot; style=&quot;width: 100%; height: auto; display: block; border: 1px solid #000;&quot;&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;如果从数学上描述鸟群的运动轨迹、形状会非常复杂，Boids 算法的独特之处就在于通过为每个个体设定几条简单的规则，即可实现群体的复杂行为。&lt;/p&gt;</summary>
     
     
     
-    <category term="投资观察" scheme="https://blog.xption.com/categories/%E6%8A%95%E8%B5%84%E8%A7%82%E5%AF%9F/"/>
+    <category term="编程" scheme="https://blog.xption.com/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-    <category term="投资" scheme="https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[20240919]美联储降息</title>
-    <link href="https://blog.xption.com/2024/09/19/invest/[20240919]%E7%BE%8E%E8%81%94%E5%82%A8%E9%99%8D%E6%81%AF/"/>
-    <id>https://blog.xption.com/2024/09/19/invest/[20240919]%E7%BE%8E%E8%81%94%E5%82%A8%E9%99%8D%E6%81%AF/</id>
-    <published>2024-09-19T12:00:00.000Z</published>
-    <updated>2024-10-21T03:19:51.163Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="美联储降息-50-bp"><a href="#美联储降息-50-bp" class="headerlink" title="美联储降息 50 bp"></a>美联储降息 50 bp</h2><ul><li><img src="/2024/09/19/invest/%5B20240919%5D%E7%BE%8E%E8%81%94%E5%82%A8%E9%99%8D%E6%81%AF/1.jpg" class="" width="1080"></li><li>香港的货币政策紧跟美联储，今天也跟着降息 50 bp</li><li>港股、A 股今天应声大涨</li><li>美联储降息，国际资金会流出美国，寻找新的机会。所以，一鲸落万物生，全球股市都会上涨。A 股是否也是如此呢？</li><li>目前，MSCI 新兴市场指数中，中国所占比例已经低于印度，有多少资金会流入中国</li><li>况且，中国目前的经济状况，如何着陆还很难说。我们自己都不是很有信心，何况国外投资者？</li></ul><span id="more"></span><h2 id="金钟转债"><a href="#金钟转债" class="headerlink" title="金钟转债"></a>金钟转债</h2><ul><li>昨晚，金钟转债公告调整不下修转股价的期限，与回盛转债如出一辙</li><li>前两个月，大股东一直减持可转债，几乎卖完了</li><li>综合以上这两点看，是要下修转股价</li><li>但是，我没明白为什么这么着急下修？<ul><li>可转债上市时间不长，还有 5 年时间才到期</li><li>公司没有回购股份用于员工激励，所以不存在注销股份转债清偿的事</li><li>公司资产负债率不到 40%，没必要着急降杠杆</li><li>没看明白</li></ul></li><li>今早开盘买入一点，小赚</li><li>收盘价 97 元，这个位置即使不下修也没问题，继续持有</li></ul><h2 id="湖南省财政厅厅长刘文杰去世"><a href="#湖南省财政厅厅长刘文杰去世" class="headerlink" title="湖南省财政厅厅长刘文杰去世"></a>湖南省财政厅厅长刘文杰去世</h2><ul><li>刘文杰 62 岁 女性，去世或涉刑事案件</li><li>江湖传言一：被两位男士扔下楼，这两位男士也跟着跳下</li><li>江湖传言二：纪委两位工作人员去她家里谈话要带走，她情绪激动跳楼，并把两位工作人员也带下</li><li><img src="/2024/09/19/invest/%5B20240919%5D%E7%BE%8E%E8%81%94%E5%82%A8%E9%99%8D%E6%81%AF/2.jpg" class="" width="540"></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;美联储降息-50-bp&quot;&gt;&lt;a href=&quot;#美联储降息-50-bp&quot; class=&quot;headerlink&quot; title=&quot;美联储降息 50 bp&quot;&gt;&lt;/a&gt;美联储降息 50 bp&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;/2024/09/19/invest/%5B20240919%5D%E7%BE%8E%E8%81%94%E5%82%A8%E9%99%8D%E6%81%AF/1.jpg&quot; class=&quot;&quot; width=&quot;1080&quot;&gt;&lt;/li&gt;
-&lt;li&gt;香港的货币政策紧跟美联储，今天也跟着降息 50 bp&lt;/li&gt;
-&lt;li&gt;港股、A 股今天应声大涨&lt;/li&gt;
-&lt;li&gt;美联储降息，国际资金会流出美国，寻找新的机会。所以，一鲸落万物生，全球股市都会上涨。A 股是否也是如此呢？&lt;/li&gt;
-&lt;li&gt;目前，MSCI 新兴市场指数中，中国所占比例已经低于印度，有多少资金会流入中国&lt;/li&gt;
-&lt;li&gt;况且，中国目前的经济状况，如何着陆还很难说。我们自己都不是很有信心，何况国外投资者？&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="投资观察" scheme="https://blog.xption.com/categories/%E6%8A%95%E8%B5%84%E8%A7%82%E5%AF%9F/"/>
-    
-    
-    <category term="投资" scheme="https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[20240918]中秋礼品量升价跌</title>
-    <link href="https://blog.xption.com/2024/09/18/invest/[20240918]%E4%B8%AD%E7%A7%8B%E7%A4%BC%E5%93%81%E9%87%8F%E5%8D%87%E4%BB%B7%E8%B7%8C/"/>
-    <id>https://blog.xption.com/2024/09/18/invest/[20240918]%E4%B8%AD%E7%A7%8B%E7%A4%BC%E5%93%81%E9%87%8F%E5%8D%87%E4%BB%B7%E8%B7%8C/</id>
-    <published>2024-09-18T12:00:00.000Z</published>
-    <updated>2024-10-21T03:19:51.162Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="中秋礼品量升价跌"><a href="#中秋礼品量升价跌" class="headerlink" title="中秋礼品量升价跌"></a>中秋礼品量升价跌</h2><ul><li>住宿机票的同比数据参考性略差，因为去年是疫情解封后的第一年，民众压抑三年的出行意愿释放</li><li>中秋礼品价格的变化更具参考性</li><li><img src="/2024/09/18/invest/%5B20240918%5D%E4%B8%AD%E7%A7%8B%E7%A4%BC%E5%93%81%E9%87%8F%E5%8D%87%E4%BB%B7%E8%B7%8C/1.png" class=""></li></ul><h2 id="A500-基金认购"><a href="#A500-基金认购" class="headerlink" title="A500 基金认购"></a>A500 基金认购</h2><ul><li>券商应该是有代销任务，认购会返还 1% 的奖励。没经得住这 1% 的诱惑，纠结了下最终还是选择认购</li><li>希望市场给口饭吃，这段时间稳定点儿，别继续下跌了</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;中秋礼品量升价跌&quot;&gt;&lt;a href=&quot;#中秋礼品量升价跌&quot; class=&quot;headerlink&quot; title=&quot;中秋礼品量升价跌&quot;&gt;&lt;/a&gt;中秋礼品量升价跌&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;住宿机票的同比数据参考性略差，因为去年是疫情解封后的第一年，民众压抑三年的出行意</summary>
-      
-    
-    
-    
-    <category term="投资观察" scheme="https://blog.xption.com/categories/%E6%8A%95%E8%B5%84%E8%A7%82%E5%AF%9F/"/>
-    
-    
-    <category term="投资" scheme="https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/"/>
+    <category term="游戏" scheme="https://blog.xption.com/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -133,161 +65,6 @@
     
     
     <category term="投资" scheme="https://blog.xption.com/categories/%E6%8A%95%E8%B5%84/"/>
-    
-    
-    <category term="投资" scheme="https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[20240914]关于养老</title>
-    <link href="https://blog.xption.com/2024/09/14/invest/[20240914]%E5%85%B3%E4%BA%8E%E5%85%BB%E8%80%81/"/>
-    <id>https://blog.xption.com/2024/09/14/invest/[20240914]%E5%85%B3%E4%BA%8E%E5%85%BB%E8%80%81/</id>
-    <published>2024-09-14T12:00:00.000Z</published>
-    <updated>2024-10-21T03:19:51.162Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="养老政策变更历史"><a href="#养老政策变更历史" class="headerlink" title="养老政策变更历史"></a>养老政策变更历史</h2><ul><li><img src="/2024/09/14/invest/%5B20240914%5D%E5%85%B3%E4%BA%8E%E5%85%BB%E8%80%81/1.png" class=""></li><li>很多人在抱怨养老政策不停改变，个人承担的养老压力越来越大</li><li>我倒是觉得这事，不怪国家，怪我自己</li><li>我们是有中国特色的社会主义，特色就意味着其他国家没有，我们很多时候需要探索和尝试（摸石头过河）。因为要探索尝试，那政策的变更调整也是合理，毕竟很多时候也是边走边看。既然如此，那我凭什么因为养老政策的变动而有情绪？</li><li>一直以来，我读书、工作、买房还贷都是靠自己，自己掌握主动权，什么时候靠过国家？凭什么养老这件如此重要的事我却想着依赖国家呢？依赖别人，就会被动</li><li>这几天思来想去，也只能怪自己。从今天起，不再对养老政策抱有任何期望，缴纳养老金只当是纳税。我就是一个普通老百姓，管好我的三分地就行了，穷则独善其身，达则继续独善其身</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;养老政策变更历史&quot;&gt;&lt;a href=&quot;#养老政策变更历史&quot; class=&quot;headerlink&quot; title=&quot;养老政策变更历史&quot;&gt;&lt;/a&gt;养老政策变更历史&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;/2024/09/14/invest/%5B20240914</summary>
-      
-    
-    
-    
-    <category term="投资观察" scheme="https://blog.xption.com/categories/%E6%8A%95%E8%B5%84%E8%A7%82%E5%AF%9F/"/>
-    
-    
-    <category term="投资" scheme="https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[20240913]延迟退休</title>
-    <link href="https://blog.xption.com/2024/09/13/invest/[20240913]%E5%BB%B6%E8%BF%9F%E9%80%80%E4%BC%91/"/>
-    <id>https://blog.xption.com/2024/09/13/invest/[20240913]%E5%BB%B6%E8%BF%9F%E9%80%80%E4%BC%91/</id>
-    <published>2024-09-13T12:04:49.000Z</published>
-    <updated>2024-10-21T03:19:51.161Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="延迟退休"><a href="#延迟退休" class="headerlink" title="延迟退休"></a>延迟退休</h2><h3 id="延迟退休-1"><a href="#延迟退休-1" class="headerlink" title="延迟退休"></a>延迟退休</h3><blockquote><p>全国人民代表大会常务委员会关于实施渐进式延迟法定退休年龄的决定，同步启动延迟男、女职工的法定退休年龄，用十五年时间，逐步将男职工的法定退休年龄从原六十周岁延迟至六十三周岁，将女职工的法定退休年龄从原五十周岁、五十五周岁分别延迟至五十五周岁、五十八周岁</p></blockquote><ul><li>用 15 年时间</li><li>男性退休年龄从 60 周岁 -&gt; 63 周岁</li><li>女性退休年龄从 50 周岁 -&gt; 53 周岁，55 周岁 -&gt; 58 周岁</li></ul><span id="more"></span><h3 id="提高养老金最低缴费年限"><a href="#提高养老金最低缴费年限" class="headerlink" title="提高养老金最低缴费年限"></a>提高养老金最低缴费年限</h3><blockquote><p>从2030年1月1日起将职工按月领取基本养老金最低缴费年限由十五年逐步提高至二十年 每年提高六个月</p></blockquote><ul><li>从 2030 年 1 月 1 日起，由 15 年逐步提高至 20 年</li><li>每年提高 6 个月（10 年时间完成）</li></ul><h3 id="以上两个政策，不必同时遵守"><a href="#以上两个政策，不必同时遵守" class="headerlink" title="以上两个政策，不必同时遵守"></a>以上两个政策，不必同时遵守</h3><blockquote><p>职工达到最低缴费年限，可以自愿选择弹性提前退休，提前时间最长不超过三年，且退休年龄不得低于女职工五十周岁、五十五周岁及男职工六十周岁的原法定退休年龄</p></blockquote><ul><li>如果满足 1.2 条，那么可以不延迟退休</li></ul><h2 id="各省公共预算"><a href="#各省公共预算" class="headerlink" title="各省公共预算"></a>各省公共预算</h2><ul><li><p>只有上海还有盈余</p></li><li><img src="/2024/09/13/invest/%5B20240913%5D%E5%BB%B6%E8%BF%9F%E9%80%80%E4%BC%91/1.png" class=""></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;延迟退休&quot;&gt;&lt;a href=&quot;#延迟退休&quot; class=&quot;headerlink&quot; title=&quot;延迟退休&quot;&gt;&lt;/a&gt;延迟退休&lt;/h2&gt;&lt;h3 id=&quot;延迟退休-1&quot;&gt;&lt;a href=&quot;#延迟退休-1&quot; class=&quot;headerlink&quot; title=&quot;延迟退休&quot;&gt;&lt;/a&gt;延迟退休&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;全国人民代表大会常务委员会关于实施渐进式延迟法定退休年龄的决定，同步启动延迟男、女职工的法定退休年龄，用十五年时间，逐步将男职工的法定退休年龄从原六十周岁延迟至六十三周岁，将女职工的法定退休年龄从原五十周岁、五十五周岁分别延迟至五十五周岁、五十八周岁&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;用 15 年时间&lt;/li&gt;
-&lt;li&gt;男性退休年龄从 60 周岁 -&amp;gt; 63 周岁&lt;/li&gt;
-&lt;li&gt;女性退休年龄从 50 周岁 -&amp;gt; 53 周岁，55 周岁 -&amp;gt; 58 周岁&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="投资观察" scheme="https://blog.xption.com/categories/%E6%8A%95%E8%B5%84%E8%A7%82%E5%AF%9F/"/>
-    
-    
-    <category term="投资" scheme="https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[20240909]韭月韭日</title>
-    <link href="https://blog.xption.com/2024/09/09/invest/[20240909]%E9%9F%AD%E6%9C%88%E9%9F%AD%E6%97%A5/"/>
-    <id>https://blog.xption.com/2024/09/09/invest/[20240909]%E9%9F%AD%E6%9C%88%E9%9F%AD%E6%97%A5/</id>
-    <published>2024-09-08T18:00:00.000Z</published>
-    <updated>2024-10-21T03:19:51.161Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="回盛转债公告即将清偿"><a href="#回盛转债公告即将清偿" class="headerlink" title="回盛转债公告即将清偿"></a>回盛转债公告即将清偿</h2><ul><li>回盛生物上周五已将可转债清偿资料提交至<strong>深交所</strong>和<strong>中登</strong>，等待处理</li><li>正常会在<strong>三个交易日</strong>内完成，即本周三</li><li>近三个月，终于要完成了</li></ul><span id="more"></span><h2 id="今日市场继续下跌"><a href="#今日市场继续下跌" class="headerlink" title="今日市场继续下跌"></a>今日市场继续下跌</h2><ul><li>权重股大跌，创业板收盘翻红</li><li>前段时间权重股有国家队托底，跌幅小于中小盘，现在反过来</li><li>上证指数收盘 2736</li><li>沪深300 收盘 3192<img src="/2024/09/09/invest/%5B20240909%5D%E9%9F%AD%E6%9C%88%E9%9F%AD%E6%97%A5/1.jpg" class=""></li></ul><h2 id="OnlyFans-公布财报"><a href="#OnlyFans-公布财报" class="headerlink" title="OnlyFans 公布财报"></a>OnlyFans 公布财报</h2><ul><li>营收和利润超过硅谷所有人工智能初创公司总和<img src="/2024/09/09/invest/%5B20240909%5D%E9%9F%AD%E6%9C%88%E9%9F%AD%E6%97%A5/2.jpg" class=""></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;回盛转债公告即将清偿&quot;&gt;&lt;a href=&quot;#回盛转债公告即将清偿&quot; class=&quot;headerlink&quot; title=&quot;回盛转债公告即将清偿&quot;&gt;&lt;/a&gt;回盛转债公告即将清偿&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;回盛生物上周五已将可转债清偿资料提交至&lt;strong&gt;深交所&lt;/strong&gt;和&lt;strong&gt;中登&lt;/strong&gt;，等待处理&lt;/li&gt;
-&lt;li&gt;正常会在&lt;strong&gt;三个交易日&lt;/strong&gt;内完成，即本周三&lt;/li&gt;
-&lt;li&gt;近三个月，终于要完成了&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="投资观察" scheme="https://blog.xption.com/categories/%E6%8A%95%E8%B5%84%E8%A7%82%E5%AF%9F/"/>
-    
-    
-    <category term="投资" scheme="https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[20240905]屠龙少年终成恶龙</title>
-    <link href="https://blog.xption.com/2024/09/05/invest/[20240905]%E5%B1%A0%E9%BE%99%E5%B0%91%E5%B9%B4%E7%BB%88%E6%88%90%E6%81%B6%E9%BE%99/"/>
-    <id>https://blog.xption.com/2024/09/05/invest/[20240905]%E5%B1%A0%E9%BE%99%E5%B0%91%E5%B9%B4%E7%BB%88%E6%88%90%E6%81%B6%E9%BE%99/</id>
-    <published>2024-09-05T12:09:30.000Z</published>
-    <updated>2024-10-21T03:19:51.160Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="银行息差已经没什么下降空间"><a href="#银行息差已经没什么下降空间" class="headerlink" title="银行息差已经没什么下降空间"></a>银行息差已经没什么下降空间</h2><ul><li>目前息差 1.54%，而不良贷款率是 1.59%，这意味着银行赚取的息差覆盖不了贷款违约的损失</li><li><img src="/2024/09/05/invest/%5B20240905%5D%E5%B1%A0%E9%BE%99%E5%B0%91%E5%B9%B4%E7%BB%88%E6%88%90%E6%81%B6%E9%BE%99/1.jpg" class=""></li></ul><span id="more"></span><h2 id="降准尚有一定空间，但存贷款利率进一步下降面临约束"><a href="#降准尚有一定空间，但存贷款利率进一步下降面临约束" class="headerlink" title="降准尚有一定空间，但存贷款利率进一步下降面临约束"></a>降准尚有一定空间，但存贷款利率进一步下降面临约束</h2><ul><li>今天，央行货币政策司司长在新闻发布会上如是说</li></ul><h2 id="屠龙少年终成恶龙"><a href="#屠龙少年终成恶龙" class="headerlink" title="屠龙少年终成恶龙"></a>屠龙少年终成恶龙</h2><ul><li>校友会有个组织<strong>递酒人民壹院</strong>，这是一个小酒馆，定期邀请校友做分享，点一杯咖啡就可以听</li><li>近期一个分享是关于保险，我最近正在学习相关知识，就在群里跟大家交流了下</li><li>不想酒院管理员邀请我做个关于<strong>散户如何在 A 股生存</strong>的分享，安排在十月份</li><li>本来我只是来听讲座，最后变成我来分享。不禁想起那句话：屠龙少年终成恶龙😂</li></ul><h2 id="印度公务员招聘体能测试，12-人死亡"><a href="#印度公务员招聘体能测试，12-人死亡" class="headerlink" title="印度公务员招聘体能测试，12 人死亡"></a>印度公务员招聘体能测试，12 人死亡</h2><ul><li>看来，公务员考试竞争激烈的不只咱中国</li><li>小的时候以为自己是奥特曼，长大后才发现自己是<strong>奥德彪</strong>，一声叹息</li><li><img src="/2024/09/05/invest/%5B20240905%5D%E5%B1%A0%E9%BE%99%E5%B0%91%E5%B9%B4%E7%BB%88%E6%88%90%E6%81%B6%E9%BE%99/2.png" class=""></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;银行息差已经没什么下降空间&quot;&gt;&lt;a href=&quot;#银行息差已经没什么下降空间&quot; class=&quot;headerlink&quot; title=&quot;银行息差已经没什么下降空间&quot;&gt;&lt;/a&gt;银行息差已经没什么下降空间&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;目前息差 1.54%，而不良贷款率是 1.59%，这意味着银行赚取的息差覆盖不了贷款违约的损失&lt;/li&gt;
-&lt;li&gt;&lt;img src=&quot;/2024/09/05/invest/%5B20240905%5D%E5%B1%A0%E9%BE%99%E5%B0%91%E5%B9%B4%E7%BB%88%E6%88%90%E6%81%B6%E9%BE%99/1.jpg&quot; class=&quot;&quot;&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="投资观察" scheme="https://blog.xption.com/categories/%E6%8A%95%E8%B5%84%E8%A7%82%E5%AF%9F/"/>
-    
-    
-    <category term="投资" scheme="https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[20240904]淘宝将全面支持微信</title>
-    <link href="https://blog.xption.com/2024/09/04/invest/[20240904]%E6%B7%98%E5%AE%9D%E5%B0%86%E5%85%A8%E9%9D%A2%E6%94%AF%E6%8C%81%E5%BE%AE%E4%BF%A1/"/>
-    <id>https://blog.xption.com/2024/09/04/invest/[20240904]%E6%B7%98%E5%AE%9D%E5%B0%86%E5%85%A8%E9%9D%A2%E6%94%AF%E6%8C%81%E5%BE%AE%E4%BF%A1/</id>
-    <published>2024-09-04T13:19:04.000Z</published>
-    <updated>2024-10-21T03:19:51.160Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="锂科转债"><a href="#锂科转债" class="headerlink" title="锂科转债"></a><strong>锂科转债</strong></h2><ul><li>发行人为上市公司<strong>五矿新能</strong>，该公司实控人为<strong>五矿集团</strong>，持股 32%（五矿集团是国务院国资委 100% 控股）</li><li>公司背景足够，流动资产 81 亿，流动负债 24 亿，货币资金 32 亿。可转债剩余规模 32 亿，偿债压力不大，并且公司资产负债率只有 45%，实在不济就从银行贷款偿还可转债。所以，违约概率极低</li><li>转债当前价格 98.4 元，到期税后收益率 3.23%（散户的税后收益率可以做到约 3.62%）。2028 年 10 月份到期，还有 4 年，相当于一笔 3.23% 四年期的理财</li><li>这期间如果价格涨的话，直接卖掉收益率更高。当然，因为溢价率较高（240%），价格上涨的空间有限。保底是持有 4 年到期，赚 3.23% 的年化收益率</li></ul><span id="more"></span><h2 id="消费券"><a href="#消费券" class="headerlink" title="消费券"></a>消费券</h2><ul><li>9 月 2 日发现北京地区的家电消费券，今天发现如果在外地使用有截止日期，截止今天</li><li>上海的消费券也在路上了，具体细则还没颁布，等待消息</li><li>以前我觉得发放消费券应该是生活消费券，比如各种餐饮店，没想到这次空前力度的消费券是在家电和电子产品。虽然折扣挺大，但如果本来没有需求，也没必要硬买</li><li>如果有 iPad Pro 的消费券，我会买一台；目前看下来，没有购买的欲望</li></ul><h2 id="淘宝将全面支持微信支付"><a href="#淘宝将全面支持微信支付" class="headerlink" title="淘宝将全面支持微信支付"></a>淘宝将全面支持微信支付</h2><ul><li>澎湃新闻：阿里腾讯两大巨头间的支付互联互通，再迎重磅进展。9月4日，知情人士表示淘宝 App 即将全面支持微信支付</li><li>这是一个标志性的事件，二十年后人们回顾中国的互联网行业，一定会提起这件事</li><li>淘宝支持微信支付，在几年前是完全无法想象的。自从马云在上海外滩金融峰会的发言后，阿里的颓势越来越明显，电商业务受 PDD 冲击很大。相比之下，一向低调的马化腾似乎要稳健许多，虽然前两年游戏行业受政策影响很大</li></ul><h2 id="存量房贷利率下调的消息"><a href="#存量房贷利率下调的消息" class="headerlink" title="存量房贷利率下调的消息"></a>存量房贷利率下调的消息</h2><ul><li>市场传言，金融监管机构已提议在全国范围内将<strong>存量</strong>房贷利率共计下调 <strong>80 个基点</strong></li><li>既要降低房贷利率，又不至于让银行出血太多，目前银行的<strong>息差已经达到历史低点</strong> 1.5% 附近</li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;锂科转债&quot;&gt;&lt;a href=&quot;#锂科转债&quot; class=&quot;headerlink&quot; title=&quot;锂科转债&quot;&gt;&lt;/a&gt;&lt;strong&gt;锂科转债&lt;/strong&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;发行人为上市公司&lt;strong&gt;五矿新能&lt;/strong&gt;，该公司实控人为&lt;strong&gt;五矿集团&lt;/strong&gt;，持股 32%（五矿集团是国务院国资委 100% 控股）&lt;/li&gt;
-&lt;li&gt;公司背景足够，流动资产 81 亿，流动负债 24 亿，货币资金 32 亿。可转债剩余规模 32 亿，偿债压力不大，并且公司资产负债率只有 45%，实在不济就从银行贷款偿还可转债。所以，违约概率极低&lt;/li&gt;
-&lt;li&gt;转债当前价格 98.4 元，到期税后收益率 3.23%（散户的税后收益率可以做到约 3.62%）。2028 年 10 月份到期，还有 4 年，相当于一笔 3.23% 四年期的理财&lt;/li&gt;
-&lt;li&gt;这期间如果价格涨的话，直接卖掉收益率更高。当然，因为溢价率较高（240%），价格上涨的空间有限。保底是持有 4 年到期，赚 3.23% 的年化收益率&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="投资观察" scheme="https://blog.xption.com/categories/%E6%8A%95%E8%B5%84%E8%A7%82%E5%AF%9F/"/>
-    
-    
-    <category term="投资" scheme="https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[20240903]中信转债又给机会</title>
-    <link href="https://blog.xption.com/2024/09/03/invest/[20240903]%E4%B8%AD%E4%BF%A1%E8%BD%AC%E5%80%BA%E5%8F%88%E7%BB%99%E6%9C%BA%E4%BC%9A/"/>
-    <id>https://blog.xption.com/2024/09/03/invest/[20240903]%E4%B8%AD%E4%BF%A1%E8%BD%AC%E5%80%BA%E5%8F%88%E7%BB%99%E6%9C%BA%E4%BC%9A/</id>
-    <published>2024-09-03T10:24:38.000Z</published>
-    <updated>2024-10-21T03:19:51.159Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="中信转债又给机会"><a href="#中信转债又给机会" class="headerlink" title="中信转债又给机会"></a>中信转债又给机会</h2><ul><li>20250304 到期，还有半年。到期赎回价 111 元，即到期时中信银行会以 111 元的价格回购转债（忽略中信银行的违约概率）</li><li>这 111 元含最后一期利息，散户的利息需要扣税 20%，所以散户可以在到期前两三天以 110.7 元的价格卖出，不需要缴税的投资机构会买入</li><li>现在市场价 111.76 元，最差情况是半年后以 110.7 元卖出，亏损 1 元，约 0.95%</li><li>目前可转债溢价率只有 7%，在到期前，中信银行的股价稍微涨一涨就有得赚</li><li><strong>结论：持有半年，股价不涨或下跌，最多亏损 0.95%；如果股价上涨，涨得越多，赚得越多</strong></li></ul><span id="more"></span><h2 id="字节跳动寻求贷款"><a href="#字节跳动寻求贷款" class="headerlink" title="字节跳动寻求贷款"></a>字节跳动寻求贷款</h2><blockquote><p>知情人士透露，字节跳动将寻求获得 <strong>95 亿美元</strong>贷款，这将是除日本之外、亚洲规模最大的企业美元贷款。</p></blockquote><ul><li>字节跳动没有上市，财报不公开</li><li>从主观上感觉是现金流非常好的公司，不知道为何需要贷款</li></ul><h2 id="A-股上市公司质量"><a href="#A-股上市公司质量" class="headerlink" title="A 股上市公司质量"></a>A 股上市公司质量</h2><ul><li>上半年，A 股 5300 多家公司的营业收入<strong>下降</strong> 1.41%，净利润<strong>下降</strong> 2.36%</li><li>上半年，GDP <strong>增长</strong> 5%</li><li>是不是 A 股上市的都是垃圾公司，好公司都藏着不上市？</li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;中信转债又给机会&quot;&gt;&lt;a href=&quot;#中信转债又给机会&quot; class=&quot;headerlink&quot; title=&quot;中信转债又给机会&quot;&gt;&lt;/a&gt;中信转债又给机会&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;20250304 到期，还有半年。到期赎回价 111 元，即到期时中信银行会以 111 元的价格回购转债（忽略中信银行的违约概率）&lt;/li&gt;
-&lt;li&gt;这 111 元含最后一期利息，散户的利息需要扣税 20%，所以散户可以在到期前两三天以 110.7 元的价格卖出，不需要缴税的投资机构会买入&lt;/li&gt;
-&lt;li&gt;现在市场价 111.76 元，最差情况是半年后以 110.7 元卖出，亏损 1 元，约 0.95%&lt;/li&gt;
-&lt;li&gt;目前可转债溢价率只有 7%，在到期前，中信银行的股价稍微涨一涨就有得赚&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;结论：持有半年，股价不涨或下跌，最多亏损 0.95%；如果股价上涨，涨得越多，赚得越多&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="投资观察" scheme="https://blog.xption.com/categories/%E6%8A%95%E8%B5%84%E8%A7%82%E5%AF%9F/"/>
     
     
     <category term="投资" scheme="https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/"/>
