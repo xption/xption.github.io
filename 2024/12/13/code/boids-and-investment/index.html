@@ -29,7 +29,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://img.youtube.com/vi/4LWmRuB-uNU/0.jpg">
 <meta property="article:published_time" content="2024-12-13T03:24:25.000Z">
-<meta property="article:modified_time" content="2024-12-16T08:45:27.162Z">
+<meta property="article:modified_time" content="2024-12-16T09:08:53.733Z">
 <meta property="article:author" content="刘不思">
 <meta property="article:tag" content="游戏">
 <meta name="twitter:card" content="summary">
@@ -303,7 +303,15 @@
 <p>在股票市场，除了少数容易被人为操纵的小市值公司外，大部分时候并不存在主力。或者说，存在主力，这个主力就是所有投资者。</p>
 <p>例如，开盘后某位投资者卖出股票，观察到这一行为的投资者担心继续下跌而跟着卖出。这种跟随的卖出行为进一步传染给其他投资者，从而更多人卖出，形成了我们所谓的主力。随着这种行为的传导，越来越多投资者认为主力开始出货，便抓紧卖出，然后大骂主力。</p>
 <p>所以，与其说市场是由某些神秘的主力决定，我宁可相信我们每个人都是主力。</p>
-<script src="/js/boids-and-investment/boids.js"></script>
+<script type="module">
+    import { BoidsSimulator } from '/js/boids-and-investment/BoidsSimulator.js';
+
+    // 初始化
+    window.addEventListener('load', () => {
+        const simulator = new BoidsSimulator();
+        simulator.init();
+    });
+</script>
     </div>
 
     
