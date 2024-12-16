@@ -227,3 +227,44 @@ window.onload = () => {
   window.requestAnimationFrame(animationLoop);
 };
 */
+
+function updateSliderValues() {
+    document.getElementById('centeringFactorValue').textContent = centeringFactor;
+    document.getElementById('avoidFactorValue').textContent = avoidFactor;
+    document.getElementById('matchingFactorValue').textContent = matchingFactor;
+    document.getElementById('visualRangeValue').textContent = visualRange;
+}
+// 添加滑动条事件监听器
+document.getElementById('centeringFactor').addEventListener('input', function(e) {
+    centeringFactor = parseFloat(e.target.value);
+    updateSliderValues();
+    console.log('centeringFactor', centeringFactor);
+    // 这里可以添加重新初始化模拟的代码
+});
+// 添加滑动条事件监听器
+document.getElementById('avoidFactor').addEventListener('input', function(e) {
+    avoidFactor = parseFloat(e.target.value);
+    updateSliderValues();
+    console.log('avoidFactor', avoidFactor);
+    // 这里可以添加重新初始化模拟的代码
+});
+document.getElementById('matchingFactor').addEventListener('input', function(e) {
+    matchingFactor = parseFloat(e.target.value);
+    updateSliderValues();
+    console.log('matchingFactor', matchingFactor);
+});
+document.getElementById('visualRange').addEventListener('input', function(e) {
+    visualRange = parseInt(e.target.value);
+    updateSliderValues();
+    console.log('visualRange', visualRange);
+});
+window.onload = () => {
+  // Make sure the canvas always fills the whole window
+  window.addEventListener("resize", sizeCanvas, false);
+  sizeCanvas();
+  // Randomly distribute the boids to start
+  initBoids();
+  // Schedule the main animation loop
+  window.requestAnimationFrame(animationLoop);
+  updateSliderValues();
+};

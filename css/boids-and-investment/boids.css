@@ -1,0 +1,44 @@
+canvas {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000; /* 添加黑色边框 */
+    background: #282c34;
+}
+
+.slider-container {
+    max-width: 100%;  /* 修改为100%以适应更宽的布局 */
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;  /* 使用flex布局 */
+    gap: 20px;      /* slider组之间的间距 */
+    flex-wrap: wrap; /* 在较小屏幕上自动换行 */
+}
+
+.slider-group {
+    flex: 1;        /* 平均分配空间 */
+    min-width: 200px; /* 设置最小宽度 */
+}
+
+.slider-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;  /* 稍微减小字体大小 */
+}
+
+.slider-group .slider-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.slider-group input {
+    flex: 1;
+    width: 100%;
+}
+
+.slider-value {
+    min-width: 30px;
+    font-size: 0.9em;
+}
