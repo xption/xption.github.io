@@ -29,7 +29,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://img.youtube.com/vi/4LWmRuB-uNU/0.jpg">
 <meta property="article:published_time" content="2024-12-13T03:24:25.000Z">
-<meta property="article:modified_time" content="2024-12-16T09:08:53.733Z">
+<meta property="article:modified_time" content="2024-12-17T07:24:36.713Z">
 <meta property="article:author" content="刘不思">
 <meta property="article:tag" content="游戏">
 <meta name="twitter:card" content="summary">
@@ -134,7 +134,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -222,7 +222,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><link rel="stylesheet" href="/css/boids-and-investment/boids.css">
+    <div class="post-body" itemprop="articleBody"><link rel="stylesheet" href="/assets/boids-and-investment/css/boids.css">
 
 <h2 id="群体行为"><a href="#群体行为" class="headerlink" title="群体行为"></a>群体行为</h2><p>1987 年 Craig W.Reynolds 发表一篇名为<a target="_blank" rel="noopener" href="http://www.red3d.com/cwr/boids/">《鸟群、牧群、鱼群：分布式行为模式》</a>的论文，描述了一种非常简单的模拟群体行为的算法。</p>
 <p>该算法成为 Boids 算法 (<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Boids">维基百科</a>)。</p>
@@ -304,12 +304,47 @@
 <p>例如，开盘后某位投资者卖出股票，观察到这一行为的投资者担心继续下跌而跟着卖出。这种跟随的卖出行为进一步传染给其他投资者，从而更多人卖出，形成了我们所谓的主力。随着这种行为的传导，越来越多投资者认为主力开始出货，便抓紧卖出，然后大骂主力。</p>
 <p>所以，与其说市场是由某些神秘的主力决定，我宁可相信我们每个人都是主力。</p>
 <script type="module">
-    import { BoidsSimulator } from '/js/boids-and-investment/BoidsSimulator.js';
+    import { BoidScene } from '/assets/boids-and-investment/js/BoidScene.js';
 
-    // 初始化
-    window.addEventListener('load', () => {
-        const simulator = new BoidsSimulator();
-        simulator.init();
+    const ctx = document.getElementById("boids").getContext("2d");
+    const boidScene = new BoidScene(ctx, {
+        visualRange: 100,
+        centeringFactor: 0.005,
+        avoidFactor: 0.05,
+        matchingFactor: 0.05,
+    });
+    boidScene.init();
+
+    // 凝聚性滑块
+    document.getElementById('centeringFactor').addEventListener('input', (e) => {
+        let value = parseFloat(e.target.value);
+        document.getElementById('centeringFactorValue').textContent = value;
+
+        boidScene.updateCenteringFactor(value);
+    });
+
+    // 排斥性滑块
+    document.getElementById('avoidFactor').addEventListener('input', (e) => {
+        let value = parseFloat(e.target.value);
+        document.getElementById('avoidFactorValue').textContent = value;
+
+        boidScene.updateAvoidFactor(value);
+    });
+
+    // 同向性滑块
+    document.getElementById('matchingFactor').addEventListener('input', (e) => {
+        let value = parseFloat(e.target.value);
+        document.getElementById('matchingFactorValue').textContent = value;
+
+        boidScene.updateMatchingFactor(value);
+    });
+
+    // 视野范围滑块
+    document.getElementById('visualRange').addEventListener('input', (e) => {
+        let value = parseInt(e.target.value);
+        document.getElementById('visualRangeValue').textContent = value;
+
+        boidScene.updateVisualRange(value);
     });
 </script>
     </div>
@@ -332,6 +367,9 @@
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2024/12/18/code/route/" rel="next" title="A* 寻路算法[1]">
+                  A* 寻路算法[1] <i class="fa fa-angle-right"></i>
+                </a>
             </div>
           </div>
     </footer>

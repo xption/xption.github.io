@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xption.com/2024/12/18/code/route/</loc>
+    
+    <lastmod>2024-12-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xption.com/2024/12/13/code/boids-and-investment/</loc>
     
-    <lastmod>2024-12-16</lastmod>
+    <lastmod>2024-12-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xption.com/about/index.html</loc>
+    <loc>https://blog.xption.com/categories/index.html</loc>
     
     <lastmod>2024-09-15</lastmod>
     
@@ -38,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xption.com/categories/index.html</loc>
+    <loc>https://blog.xption.com/about/index.html</loc>
     
     <lastmod>2024-09-15</lastmod>
     
@@ -139,50 +148,50 @@
 
   <url>
     <loc>https://blog.xption.com/</loc>
-    <lastmod>2024-12-16</lastmod>
+    <lastmod>2024-12-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://blog.xption.com/tags/2023%E5%9B%BD%E5%BA%86%E8%87%AA%E9%A9%BE/</loc>
-    <lastmod>2024-12-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xption.com/tags/%E5%BE%92%E6%AD%A5/</loc>
-    <lastmod>2024-12-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xption.com/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2024-12-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xption.com/tags/%E5%87%8F%E8%82%A5/</loc>
-    <lastmod>2024-12-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xption.com/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2024-12-16</lastmod>
+    <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/</loc>
-    <lastmod>2024-12-16</lastmod>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xption.com/tags/%E5%BE%92%E6%AD%A5/</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xption.com/tags/2023%E5%9B%BD%E5%BA%86%E8%87%AA%E9%A9%BE/</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xption.com/tags/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xption.com/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -190,29 +199,29 @@
 
   
   <url>
+    <loc>https://blog.xption.com/categories/%E6%88%90%E9%95%BF/</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xption.com/categories/%E6%8A%95%E8%B5%84/</loc>
-    <lastmod>2024-12-16</lastmod>
+    <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.xption.com/categories/%E6%97%85%E8%A1%8C/</loc>
-    <lastmod>2024-12-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xption.com/categories/%E6%88%90%E9%95%BF/</loc>
-    <lastmod>2024-12-16</lastmod>
+    <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.xption.com/categories/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2024-12-16</lastmod>
+    <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
