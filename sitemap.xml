@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xption.com/2024-08-15/lose-weight/</loc>
+    
+    <lastmod>2025-11-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xption.com/2024-09-15/convertible-bond-repay/</loc>
     
     <lastmod>2025-11-03</lastmod>
@@ -145,69 +154,60 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://blog.xption.com/2024-08-15/lose-weight/</loc>
-    
-    <lastmod>2024-09-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://blog.xption.com/</loc>
-    <lastmod>2025-11-03</lastmod>
+    <lastmod>2025-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://blog.xption.com/tags/%E5%87%8F%E8%82%A5/</loc>
-    <lastmod>2025-11-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xption.com/tags/%E4%B8%AA%E4%BA%BAIP/</loc>
-    <lastmod>2025-11-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xption.com/tags/%E5%BE%92%E6%AD%A5/</loc>
-    <lastmod>2025-11-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xption.com/tags/2023%E5%9B%BD%E5%BA%86%E8%87%AA%E9%A9%BE/</loc>
-    <lastmod>2025-11-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/</loc>
-    <lastmod>2025-11-03</lastmod>
+    <loc>https://blog.xption.com/tags/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2025-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.xption.com/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2025-11-03</lastmod>
+    <lastmod>2025-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.xption.com/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2025-11-03</lastmod>
+    <loc>https://blog.xption.com/tags/%E5%87%8F%E8%82%A5/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xption.com/tags/2023%E5%9B%BD%E5%BA%86%E8%87%AA%E9%A9%BE/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xption.com/tags/%E5%BE%92%E6%AD%A5/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xption.com/tags/%E4%B8%AA%E4%BA%BAIP/</loc>
+    <lastmod>2025-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -216,28 +216,28 @@
   
   <url>
     <loc>https://blog.xption.com/categories/%E6%88%90%E9%95%BF/</loc>
-    <lastmod>2025-11-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xption.com/categories/%E6%97%85%E8%A1%8C/</loc>
-    <lastmod>2025-11-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xption.com/categories/%E6%8A%95%E8%B5%84/</loc>
-    <lastmod>2025-11-03</lastmod>
+    <lastmod>2025-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.xption.com/categories/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2025-11-03</lastmod>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xption.com/categories/%E6%97%85%E8%A1%8C/</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xption.com/categories/%E6%8A%95%E8%B5%84/</loc>
+    <lastmod>2025-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
