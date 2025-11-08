@@ -127,7 +127,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-count">15</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -156,6 +156,106 @@
 
     <div class="main-inner index posts-expand">
 
+    
+      
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.xption.com/2025-11-08/news-push-workflow/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="刘不思">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="刘不思">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 刘不思">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025-11-08/news-push-workflow/" class="post-title-link" itemprop="url">搭建新闻推送工作流</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-11-08 20:41:24" itemprop="dateCreated datePublished" datetime="2025-11-08T20:41:24+08:00">2025-11-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%8A%95%E8%B5%84/" itemprop="url" rel="index"><span itemprop="name">投资</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h2><p>我持有<strong>闻泰转债</strong>，年中时买入，之后因为安世半导体的事件加仓。前几天价格上涨后卖出了加仓的部分，相当于做了个 T，目前持仓成本非常低。</p>
+<img src="/2025-11-08/news-push-workflow/1.jpg" class="" width="360">
+
+<p>周五下午收盘前几分钟，闻泰科技忽然拉涨停，闻泰转债涨 2%。原因是财联社在下午 2 点 54 分的一篇文章：预计安世中国将很快恢复芯片供应。</p>
+<img src="/2025-11-08/news-push-workflow/2.jpg" class="" width="360">
+
+<p>晚上，我看到一位群友发的俄罗斯卫星通讯社早上 10 点 19 分的新闻，也是关于这件事。新闻标题是<a target="_blank" rel="noopener" href="https://sputniknews.cn/20251107/1068262909.html">《荷兰政府：安世中国预计未来数日恢复芯片供应》</a>。</p>
+<img src="/2025-11-08/news-push-workflow/3.png" class="" width="360">
+
+<p>也就是说，如果我关注了卫星社的新闻，那么我有几个小时的时间可以从容买入，而不是等到下午收盘前看到财联社的新闻才慌慌张张追涨。</p>
+<p>按理说，我持有闻泰转债，而且价格受中荷博弈影响很大，我应该密切关注荷方的新闻。但我之前并不知道卫星社的新闻会领先财联社这么多，现在既然知道了，就得关注起来。</p>
+<p>为了方便，我计划写一个爬虫，实时爬取新闻信息，推送到飞书群。</p>
+<h2 id="开始行动"><a href="#开始行动" class="headerlink" title="开始行动"></a>开始行动</h2><p>说干就干，技术上并不复杂。</p>
+<p>先实现一个爬虫服务，再实现一个推送服务即可。爬虫很简单，网站没有反爬机制，我只爬取标题，不爬内容，点击浏览详情后仍然跳转到原网站。</p>
+<p>再实现一个飞书群的推送服务，这个更简单，在群里添加一个聊天机器人，然后给这个机器人的 url 地址推送消息即可。</p>
+<p>基本半个小时就搞定。</p>
+<img src="/2025-11-08/news-push-workflow/4.png" class="" width="360">
+
+<h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p>实现之后，给群友做了分享，免费加入飞书群。</p>
+<p>之后，又添加了彭博社和路透社的新闻，因为流程已经通了，加这两个渠道速度就更快了。</p>
+<p>下一步实现关键字筛选，比如设置关键字“安世”，那么标题中含有关键字的重要新闻可以直接推送到微信。这个没法推送到群，因为每个人的关键字不同。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
     
       
 
@@ -968,98 +1068,6 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2023/10/09/life/%E5%9B%BD%E5%BA%86%E8%87%AA%E9%A9%BE%E6%B8%B8-%E7%AC%AC%E5%85%AD%E5%A4%A9-%E9%A9%BB%E9%A9%AC%E5%BA%97-%E4%B8%8A%E6%B5%B7/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-    
-      
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blog.xption.com/2023/10/09/life/%E5%9B%BD%E5%BA%86%E8%87%AA%E9%A9%BE%E6%B8%B8-%E7%AC%AC%E4%BA%94%E5%A4%A9-%E8%A5%84%E9%98%B3-%E9%A9%BB%E9%A9%AC%E5%BA%97/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="刘不思">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="刘不思">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 刘不思">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/10/09/life/%E5%9B%BD%E5%BA%86%E8%87%AA%E9%A9%BE%E6%B8%B8-%E7%AC%AC%E4%BA%94%E5%A4%A9-%E8%A5%84%E9%98%B3-%E9%A9%BB%E9%A9%AC%E5%BA%97/" class="post-title-link" itemprop="url">[国庆自驾游] 第五天 襄阳-驻马店</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2023-10-09 09:14:18" itemprop="dateCreated datePublished" datetime="2023-10-09T09:14:18+08:00">2023-10-09</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%97%85%E8%A1%8C/" itemprop="url" rel="index"><span itemprop="name">旅行</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><ul>
-<li>出发地：襄阳</li>
-<li>目的地：驻马店（原计划前往洛阳，但洛阳酒店太贵；又改计划前往许昌，但高速太堵）</li>
-<li>出发时间：14点</li>
-<li>到达时间：18点</li>
-</ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2023/10/09/life/%E5%9B%BD%E5%BA%86%E8%87%AA%E9%A9%BE%E6%B8%B8-%E7%AC%AC%E4%BA%94%E5%A4%A9-%E8%A5%84%E9%98%B3-%E9%A9%BB%E9%A9%AC%E5%BA%97/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>

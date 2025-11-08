@@ -6,7 +6,7 @@
   <link href="https://blog.xption.com/atom.xml" rel="self"/>
   
   <link href="https://blog.xption.com/"/>
-  <updated>2025-11-03T06:07:36.230Z</updated>
+  <updated>2025-11-08T13:35:40.298Z</updated>
   <id>https://blog.xption.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搭建新闻推送工作流</title>
+    <link href="https://blog.xption.com/2025-11-08/news-push-workflow/"/>
+    <id>https://blog.xption.com/2025-11-08/news-push-workflow/</id>
+    <published>2025-11-08T12:41:24.765Z</published>
+    <updated>2025-11-08T13:35:40.298Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h2><p>我持有<strong>闻泰转债</strong>，年中时买入，之后因为安世半导体的事件加仓。前几天价格上涨后卖出了加仓的部分，相当于做了个 T，目前持仓成本非常低。</p><img src="/2025-11-08/news-push-workflow/1.jpg" class="" width="360"><p>周五下午收盘前几分钟，闻泰科技忽然拉涨停，闻泰转债涨 2%。原因是财联社在下午 2 点 54 分的一篇文章：预计安世中国将很快恢复芯片供应。</p><img src="/2025-11-08/news-push-workflow/2.jpg" class="" width="360"><p>晚上，我看到一位群友发的俄罗斯卫星通讯社早上 10 点 19 分的新闻，也是关于这件事。新闻标题是<a href="https://sputniknews.cn/20251107/1068262909.html">《荷兰政府：安世中国预计未来数日恢复芯片供应》</a>。</p><img src="/2025-11-08/news-push-workflow/3.png" class="" width="360"><p>也就是说，如果我关注了卫星社的新闻，那么我有几个小时的时间可以从容买入，而不是等到下午收盘前看到财联社的新闻才慌慌张张追涨。</p><p>按理说，我持有闻泰转债，而且价格受中荷博弈影响很大，我应该密切关注荷方的新闻。但我之前并不知道卫星社的新闻会领先财联社这么多，现在既然知道了，就得关注起来。</p><p>为了方便，我计划写一个爬虫，实时爬取新闻信息，推送到飞书群。</p><h2 id="开始行动"><a href="#开始行动" class="headerlink" title="开始行动"></a>开始行动</h2><p>说干就干，技术上并不复杂。</p><p>先实现一个爬虫服务，再实现一个推送服务即可。爬虫很简单，网站没有反爬机制，我只爬取标题，不爬内容，点击浏览详情后仍然跳转到原网站。</p><p>再实现一个飞书群的推送服务，这个更简单，在群里添加一个聊天机器人，然后给这个机器人的 url 地址推送消息即可。</p><p>基本半个小时就搞定。</p><img src="/2025-11-08/news-push-workflow/4.png" class="" width="360"><h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p>实现之后，给群友做了分享，免费加入飞书群。</p><p>之后，又添加了彭博社和路透社的新闻，因为流程已经通了，加这两个渠道速度就更快了。</p><p>下一步实现关键字筛选，比如设置关键字“安世”，那么标题中含有关键字的重要新闻可以直接推送到微信。这个没法推送到群，因为每个人的关键字不同。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;缘由&quot;&gt;&lt;a href=&quot;#缘由&quot; class=&quot;headerlink&quot; title=&quot;缘由&quot;&gt;&lt;/a&gt;缘由&lt;/h2&gt;&lt;p&gt;我持有&lt;strong&gt;闻泰转债&lt;/strong&gt;，年中时买入，之后因为安世半导体的事件加仓。前几天价格上涨后卖出了加仓的部分，相当于做了个 </summary>
+      
+    
+    
+    
+    <category term="投资" scheme="https://blog.xption.com/categories/%E6%8A%95%E8%B5%84/"/>
+    
+    
+    <category term="投资" scheme="https://blog.xption.com/tags/%E6%8A%95%E8%B5%84/"/>
+    
+  </entry>
   
   <entry>
     <title>耐心和纪律</title>
